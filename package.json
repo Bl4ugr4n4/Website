@@ -1,7 +1,7 @@
 {
   "name": "vendor",
   "version": "0.1.0",
-  "homepage": "https://Bl4ugr4n4.github.io/Website",
+  "homepage": "https://bl4ugr4n4.github.io/Website",
   "private": true,
   "proxy": "http://localhost:8000",
   "dependencies": {
