@@ -1,0 +1,54 @@
+footer {
+    padding: 28px 23px;
+    background: var(--body-bg);
+    color: var(--body-g-color) !important;
+}
+
+.footer {
+    color: var(--body-g-color);
+    display: block;
+    width: 100%;
+    position: auto;
+    border-top: 1px solid #76b900;
+}
+
+.footer>.address {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    width: auto;
+}
+
+.footer>.address>span {
+    display: block;
+    padding-top: 10px;
+}
+
+.footer>.phone {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    margin-top: 50px;
+    float: right;
+}
+
+.footer>.phone>span {
+    display: block;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.footer>.email {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+.footer>.email>.email {
+    display: block;
+    padding-top: 10px;
+    text-align: right;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.Reviews {
+    text-align: center;
+    padding: 0px 23px;
+}
+
+.Reviews .pane {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.Reviews .pane img {
+    width: 100%;
+}
+
+.Reviews .pane>div {
+    width: 300px;
+}
+
+.Reviews .testi-text {
+    margin-top: 12px;
+    text-align: left;
+}
+
+.rating-t {
+   display: flex;
+   gap: 10px;
+   margin: 10px 0px;
+}
+.rating-t img {
+    width: 130px !important;
+}

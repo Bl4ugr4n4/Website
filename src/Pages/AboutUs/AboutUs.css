@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.AboutUs h1 {
+    display: inline-block;
+    text-align: center;
+    padding: 4pt;
+}
+
+.AboutUs .header>input,
+.AboutUs .header>label {
+    display: none;
+}
+
+.about_us {
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 30px 10% 50px 10%;
+}
+
+.about_us>h2 {
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0 auto 30px;
+}
+
+.about_us>span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.75;
+    margin: 20px auto 10px;
+}
+
+.about_us>p {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+    margin: 0 auto 10px;
+}
+
+.about_us>img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about_us>.mission {
+    color: rgba(255, 255, 255, 1);
+    display: blcok;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: var(--body-g-color);
+    margin-left: 20%;
+    padding: 5px 10px;
+
+}
+
+.about_us>.mission>span {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+.about_us>.mission>p {
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto 10px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+
+    .header>#nav+label+nav.circle {
+        display: none;
+        width: 120px;
+        padding: 10px;
+        background-color: #292c2f;
+    }
+
+    .header>#nav:checked+label+nav.circle {
+        display: block;
+    }
+
+
+    .header>nav.circle>ul {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .header>nav.circle>ul>li {
+        display: block;
+    }
+
+    .header>nav.circle {
+        position: absolute;
+        top: 54px;
+        right: 0;
+        z-index: 100;
+        text-align: left;
+    }
+
+    .header>label {
+        display: inline-block;
+        float: right;
+        width: 48px;
+        height: 48px;
+        padding: 16px;
+    }
+}

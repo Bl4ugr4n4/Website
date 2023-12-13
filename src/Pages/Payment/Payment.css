@@ -1,0 +1,70 @@
+.App {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.Payment form {
+    margin: 30px auto 0;
+    max-width: 400px;
+}
+
+.Payment .front {
+    position: relative;
+    transform: rotateY(0deg);
+    background-color: red;
+}
+
+.Payment .back {
+    position: relative;
+    transform: rotateY(180deg);
+    background-color: yellow;
+}
+
+.Payment .rccs__card {
+    height: 182.873px;
+    margin-top: 10;
+    margin-bottom: 10;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    width: 290px;
+
+    /* background: linear-gradient(
+     25deg
+  , #986, #234); */
+}
+
+.Payment .front1 {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.Payment .back1 {
+    transform: rotateY(360deg);
+    margin-bottom: 30px !important;
+    background-color: yellow;
+}
+
+.Payment .App-cards-list {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Payment .App-cards-list>* {
+    transform: scale(0.8);
+    margin-bottom: 30px !important;
+}
+
+.Payment .back3 {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

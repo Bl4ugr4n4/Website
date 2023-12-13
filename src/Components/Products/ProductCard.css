@@ -1,0 +1,81 @@
+.product-card {
+    border: 1px solid rgba(182, 182, 182, .5);
+    border-radius: 6px;
+    box-shadow: 0 2px 7px #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 23px;
+}
+
+.product-card img {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.product-card .desc {
+    padding: 10px 23px;
+    background: var(--body-bg);
+    border-radius: 6px;
+}
+
+.product-card .desc p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: var(--body-g-color);
+}
+
+.product-card .price {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.product-card .desc p.title {
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+    color: var(--body-g-color);
+    font-size: 18px;
+}
+
+.product-card .desc .para {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: var(--body-g-color);
+}
+
+.product-card .desc .para {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.product-card .desc .para,
+.product-card .desc .para h1,
+.product-card .desc .para h2,
+.product-card .desc .para h3,
+.product-card .desc .para h4,
+.product-card .desc .para h5,
+.product-card .desc .para h6,
+.product-card .desc .para b {
+    color: var(--body-g-color);
+    font-size: 17px;
+}
+
+@media (max-width: 600px) {
+    .product-card {
+        padding-right: 0px;
+    }
+
+    .product-card .desc,
+    .product-card .last {
+        padding: 12px;
+    }
+}
